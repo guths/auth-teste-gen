@@ -8,21 +8,5 @@ import HomeSlider from "../components/HomeSlider.vue";
 </script>
 
 <template>
-    <HomeBanner />
-
-    <!-- service section -->
-    <HomeService />
-
-    <!-- project section -->
-    <HomeProject />
-
-    <!-- Team section -->
-
-    <HomeTeam />
-
-    <!-- Client section -->
-    <HomeClient />
-
-    <!-- Review section -->
-    <HomeSlider />
+    <h1>lol</h1>
 </template>

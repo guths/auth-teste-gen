@@ -1,11 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import home from "./pages/home.vue";
-import about from "./pages/about.vue";
-import services from "./pages/services.vue";
-import project from "./pages/project.vue";
-import team from "./pages/team.vue";
-import contact from "./pages/contact.vue";
-import products from "./pages/products.vue";
+import login from "./pages/login.vue";
+import register from "./pages/register.vue";
 
 const routes = [
     {
@@ -14,34 +10,14 @@ const routes = [
         component: home,
     },
     {
-        path: "/about",
-        name: "About Us",
-        component: about,
+        path: "/register",
+        name: "Register",
+        component: register,
     },
     {
-        path: "/services",
-        name: "Services",
-        component: services,
-    },
-    {
-        path: "/project",
-        name: "Project",
-        component: project,
-    },
-    {
-        path: "/team",
-        name: "Team",
-        component: team,
-    },
-    {
-        path: "/contact",
-        name: "Contact",
-        component: contact,
-    },
-    {
-        path: "/products",
-        name: "products",
-        component: products,
+        path: "/login",
+        name: "Login",
+        component: login,
     },
 ];
 
